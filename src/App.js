@@ -14,7 +14,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <br/>
+        <br />
         <footer className="text-center">
           <a
             className="App-link"
