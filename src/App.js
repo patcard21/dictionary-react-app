@@ -1,15 +1,20 @@
 import React from "react";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import logo from "./logo.svg";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header"></header>
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <h1>React Dictionary</h1>
+        </header>
         <main>
           <Dictionary />
         </main>
+        <br/>
         <footer className="text-center">
           <a
             className="App-link"
