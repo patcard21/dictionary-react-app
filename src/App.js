@@ -12,7 +12,7 @@ function App() {
           <h1>React Dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="computer" />
+          <Dictionary defaultKeyword="programming" />
         </main>
         <br />
         <footer className="text-center">
