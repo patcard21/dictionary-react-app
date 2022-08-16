@@ -43,7 +43,6 @@ export default function Dictionary(props) {
   }
   function load() {
     setLoaded(true);
-    search();
   }
 
   if (loaded) {
@@ -53,7 +52,9 @@ export default function Dictionary(props) {
           <form onSubmit={handleSubmit}>
             <input type="search" onChange={handleKeywordChange} />
           </form>
-          <div className="hint">Type a word you'd like to explore...</div>
+          <div className="hint">
+            Type an English word you'd like to explore...
+          </div>
         </section>
 
         <Results results={results} />
